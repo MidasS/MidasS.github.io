@@ -7,18 +7,24 @@ layout: page
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
 
-##Profile
+<h2>Profile</h2>
+<div>송동환 (Song donghwan)</div>
+<div>1991. 10. 28 / 남(Male) </div>
+<div>(010) 9122 - 8080 </div>
+<div>blue1028@unist.ac.kr</div>
+
+
 <ul>
-	<li></li>
-	<li></li>
-	<li></li>
+	<li>AntHouse (現)</li>
+	<li>PM Study (現)</li>
+	<li>Project M (現)</li>
 
 </ul>
 
-##Education
+<h2>Education</h2>
 
 
-##Project
+<h2>Project</h2>
 
 <h2>Experience</h2>
 
