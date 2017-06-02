@@ -1,6 +1,6 @@
 # main text of home
 name: Song Donghwan
-bio: A Man who travels the world eating noodles!
+bio: A Man who makes next generation of fintech platform
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -12,7 +12,7 @@ picture: assets/images/profile.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
+resume: false
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
@@ -34,7 +34,7 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: fb.com/blue1028
+facebook: blue1028
 #twitter: mytwitter
 # google: mygoogle
 # instagram: myinstagram
@@ -42,7 +42,7 @@ facebook: fb.com/blue1028
 # linkedin: mylinkedin
 # youtube: myyoutube
 # spotify: myspotify
-github: github.com/midass
+github: midass
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
