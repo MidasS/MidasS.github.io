@@ -3,7 +3,7 @@ title: "AntHouse"
 layout: post
 date: 2016-07-01 22:10
 tag: AntHouse
-image: /assets/images/anthouse/anthouse_cover.png
+image: /assets/images/anthouse/anthouse_logo.png
 headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
