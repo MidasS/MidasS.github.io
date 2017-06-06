@@ -10,7 +10,7 @@ layout: page
 
 ## Profile
 
-##### 송동환 (Song Donghwan)
+### 송동환 (Song Donghwan)
 
 1991.10. 28 / 남(Male)  
 
