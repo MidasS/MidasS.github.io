@@ -2,7 +2,7 @@
 title: "Whatple"
 layout: post
 date: 2014-08-01 22:10
-tag: Whatple, ProjectM
+tag: [Whatple, ProjectM]
 image: /assets/images/projectm/whatple/whatple_logo.png
 headerImage: true
 projects: true

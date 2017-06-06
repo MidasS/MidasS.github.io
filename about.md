@@ -2,13 +2,30 @@
 title: About
 layout: page
 ---
+.effect {
+    display: inline-block;
+    position: relative;
+}
+.effect:after {
+    position: absolute;
+    display: block;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(left, rgba(255, 255, 255, 0) 40%, #fff 100%);
+}
+
+<div class="frame" style="background: url({{site.url}}/{{site.picture}}) center center no-repeat;"></div>
+
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
 <h1 style="text-align:center">Midas S</h1>
 
 ---
 
-## Profile
+# Profile
 
 ### 송동환 (Song Donghwan)
 
@@ -30,7 +47,7 @@ layout: page
 ---
 
 
-## Education
+# Education
 
 **(現) 울산과학기술원(UNIST)**  
 	M.S & PhD, System Design and Control Engineering / *2015 -*
@@ -51,7 +68,7 @@ layout: page
 ---
 
 
-## Projects
+# Projects
 
 **중소기업청 창업 맞춤형 사업 과제**  
 Project Director / Fund : 7천만원 / *2013.12-2014.10*
@@ -68,7 +85,7 @@ Project Manager / Fund  : 3천만원 / *2014.04-2015.03*
 ---
 
 
-## Experience
+# Experience
 
 **앤트하우스 - ㈜ 코스콤 MOU 체결**  
 Certificate of Participation / *2016.11.25*
@@ -97,44 +114,62 @@ Certification / *2012.01 – 2012.02 & 2012.07 – 2012.09*
 ---
 
 
-## Awards
+# Awards
 
 **부울경 핀테크 서비스 콘테스트**  
->주최 : 글로벌 핀테크 센터   
-상격: 장려상   
-일시 : *2016.12*
+>Host : 글로벌 핀테크 센터   
+Prize : 장려상   
+Date : *2016.12*
 
 **오픈 API 플랫폼 기반 핀테크 서비스 공모전**  
-주최 : KOSCOM / 상격 : 장려상(코스콤 대표이사상) / *2016.10*
+>Host : KOSCOM  
+Prize : 장려상(코스콤 대표이사상)  
+Date : *2016.10*
 
 **대한민국 인재상**  
-주최 : 교육부 및 한국과학창의재단 / 상격 : 선정(부총리 겸 교육부장관상) / *2014.12*
+>Host : 교육부 및 한국과학창의재단  
+Prize : 선정(부총리 겸 교육부장관상)  
+Date : *2014.12*
 
 **UNIST 공로 포상**
-주최 : UNIST  / 상격 : 공로상(UNIST 총장) / *2013*
+>Host : UNIST  
+Prize : 공로상(UNIST 총장)  
+Date : *2013*
 
 **정부 3.0 아이디어 공모전**  
-주최 : 부산광역시 / 상격 : 장려상 / *2013*
+>Host : 부산광역시 
+Prize : 장려상 
+Date : *2013*
 
 **고령친화용품 및  IT융합 전동 복지기기 아이디어 공모전**    
-주최 : 고령친화이지라이프 / 상격 : 장려상 / *2013.11*
+>Host : 고령친화이지라이프  
+Prize : 장려상  
+Date : *2013.11*
 
 **DB매쉬업 공모전**  
-주최 : 미래창조과학부 / 상격 : 최우수상(SK Telecom 대표이사상) / *2013.10*
+>Host : 미래창조과학부  
+Prize : 최우수상(SK Telecom 대표이사상)  
+Date : *2013.10*
 
 **U-Start up Contest**  
-주최 : 교육부 / 상격 : 최우수상(교육부장관상) / *2013.10*
+>Host : 교육부  
+Prize : 최우수상(교육부장관상)  
+Date : *2013.10*
 
 **여름 전력난 아이디어 공모전**  
-주최 : 한국여성과학기술단체총연합회 / 상격 : 입상 (한국여성과총 회장상) / *2013.07*
+>Host : 한국여성과학기술단체총연합회  
+Prize : 입상 (한국여성과총 회장상)  
+Date : *2013.07*
 
 **UNIST 창업 경진대회**  
-주최 : UNIST / 상격 : 우수상 / *2012.02*
+>Host : UNIST  
+ Prize : 우수상  
+ Date :*2012.02*
 
 ---
 
 
-## Skills & Interest
+# Skills & Interest
 
 + **Language**  
 Test of English for International Communication(TOEIC) : 880
@@ -153,7 +188,7 @@ SystemTrading(시스템트레이딩), AlgorithmTrading(알고리즘트레이딩)
 ---
 
 
-## Publications
+# Publications
 
 **Conference**
 1. 송동환, 이윤재, & 김남훈. (2014). 청각신호를 이용한 시각장애인 방향제어 길안내 시스템. 2014 년 대한산업공학회· 한국경영과학회 춘계공동학술대회 논문집, 1743-1755.
@@ -171,26 +206,26 @@ SystemTrading(시스템트레이딩), AlgorithmTrading(알고리즘트레이딩)
 ---
 
 
-## Patents
-**국내 특허**
+# Patents
+**국내 특허(Korean Patent)**
 + **시각 장애인을 위한 길 안내 서비스 제공 시스템 및 발명**  
-등록번호 : 1016483740000 / 등록일자 : 2016.08.09
+Publication No : 1016483740000 / Publication Date : *2016.08.09*
 
 
-**해외 특허**
+**해외 특허(Oversea Patent)**
 + **System and method for providing route Guidance service for visually impaired people**  
-Publication No : US-2016-0327405-A1 / Publication Date : 2016.11.10
+Publication No : US-2016-0327405-A1 / Publication Date : *2016.11.10*
 
 ---
 
 
-## Scholarships
+# Scholarships
 
 **National Science and Engineering Scholarship**  
-Korean Student Aid Foundation / 기간 : 2011 - 2015
+Korean Student Aid Foundation / *Period : 2011 - 2015*
 
 **Academic Performance Scholarship**  
-UNIST / 기간 : 2011 - 2015
+UNIST / *Period : 2011 - 2015*
 
 **ETCFE Scholarship**  
-UNIST / 기간 : 2016.08
+UNIST / *Period : 2016.08*
