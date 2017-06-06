@@ -2,7 +2,7 @@
 title: "SoundView"
 layout: post
 date: 2013-12-01 22:10
-tag: PMStudy, ProjectM
+tag: [PMStudy, ProjectM]
 image: /assets/images/projectm/soundview/soundview_logo.png
 headerImage: true
 projects: true
