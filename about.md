@@ -19,12 +19,6 @@ You can pick as item to see how to apply in markdown.
 - [Especial Breaker](#especial-breaker)
 - [Spoiler](#spoiler)
 
-#### External Elements
-- [Gist](#gist)
-- [Codepen](#codepen)
-- [Slideshare](#slideshare)
-- [Videos](#videos)
-
 ---
 
 ## Evidence
@@ -39,36 +33,60 @@ You can try the evidence!
 
 ---
 
-<h2>Profile</h2>
-<div>송동환 (Song donghwan)</div>
-<div>1991. 10. 28 / 남(Male) </div>
-<div>(010) 9122 - 8080 </div>
-<div>blue1028@unist.ac.kr</div>
+## Profile
+
+송동환 (Song donghwan)
+1991. 10. 28 / 남(Male)
+(010) 9122 - 8080 
+blue1028@unist.ac.kr
 
 
-<ul>
-	<li>AntHouse (現)</li>
-	<li>PM Study (現)</li>
-	<li>Project M (現)</li>
 
-</ul>
-
-<h2>Education</h2>
+	AntHouse (現)
+	PM Study (現)
+	Project M (現)
 
 
-<h2>Project</h2>
+---
 
-<h2>Experience</h2>
 
-<h2>Awards</h2>
+## Education
 
-<h2>Skills & Interest</h2>
 
-<h2>Publication</h2>
+---
 
-<h2>Patent</h2>
 
-<h2>Scholarships</h2>
+## Project
+
+
+---
+
+
+## Experience
+
+---
+
+## Awards
+
+---
+
+
+## Skills & Interest
+
+---
+
+
+## Publication
+
+---
+
+
+## Patent
+
+---
+
+
+## Scholarships
 
 
 <ul class="skill-list">
