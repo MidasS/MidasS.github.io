@@ -198,15 +198,17 @@ Date :*2012.02*
 Test of English for International Communication(TOEIC) : 880
 
 + **Programming**  
-Word Processor : 2nd-class certificate, 3-class certificate
+Word Processor : 2nd-class certificate, 3-class certificate  
 Python, Django, Java, Html, Css, Javascript
 
 
 + **Data Analysis**  
-Reinfocement Learning(강화학습), Deep Learning(딥러닝), Machine Learning(머신러닝), Timeseries Analysis(시계열분석)
+Reinfocement Learning (강화학습), Deep Learning (딥러닝),  
+Machine Learning (머신러닝), Timeseries Analysis (시계열분석)
 
 + **Financial Investment**  
-SystemTrading(시스템트레이딩), AlgorithmTrading(알고리즘트레이딩)
+Index Forecasting (지수 예측), System Trading (시스템 트레이딩),  
+Algorithm Trading (알고리즘 트레이딩)
 
 ---
 
