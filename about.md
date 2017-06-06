@@ -2,22 +2,6 @@
 title: About
 layout: page
 ---
-.effect {
-    display: inline-block;
-    position: relative;
-}
-.effect:after {
-    position: absolute;
-    display: block;
-    content: "";
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(left, rgba(255, 255, 255, 0) 40%, #fff 100%);
-}
-
-<div class="frame" style="background: url({{site.url}}/{{site.picture}}) center center no-repeat;"></div>
 
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
