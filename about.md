@@ -6,7 +6,7 @@ layout: page
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
 <p style="text-align:center">Midas S</p>
-
+  
 ---
 
 # Profile
