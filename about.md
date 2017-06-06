@@ -3,9 +3,9 @@ title: About
 layout: page
 ---
 
-![Profile Image]({{ site.url }}/{{ site.picture }})
+![Profile Image]({{ site.url }}/assets/images/profile)
 
-<p style="text-align:center">Midas S</p>
+
   
 ---
  
