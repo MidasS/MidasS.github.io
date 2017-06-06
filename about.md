@@ -100,7 +100,9 @@ Certification / *2012.01 – 2012.02 & 2012.07 – 2012.09*
 ## Awards
 
 **부울경 핀테크 서비스 콘테스트**  
-주최 : 글로벌 핀테크 센터 / 상격: 장려상 / *2016.12*
+>주최 : 글로벌 핀테크 센터   
+상격: 장려상   
+일시 : *2016.12*
 
 **오픈 API 플랫폼 기반 핀테크 서비스 공모전**  
 주최 : KOSCOM / 상격 : 장려상(코스콤 대표이사상) / *2016.10*
@@ -146,7 +148,7 @@ Python, Django, Java, Html, Css, Javascript
 Reinfocement Learning(강화학습), Deep Learning(딥러닝), Machine Learning(머신러닝), Timeseries Analysis(시계열분석)
 
 + **Financial Investment**  
-System Trading(시스템 트레이딩), Algorithm Trading(알고리즘 트레이딩)
+SystemTrading(시스템트레이딩), AlgorithmTrading(알고리즘트레이딩)
 
 ---
 
