@@ -3,14 +3,13 @@ title: About
 layout: page
 ---
 
-![Profile Image]({{ site.url }}/assets/images/profile)
+![Profile Image]({{ site.url }}/assets/images/profile.jpg)
 
 
   
 ---
- 
-# Profile
 
+# Profile
 ### 송동환 (Song Donghwan)
 
 **Info** : 1991. 10. 28 / 남 (Male)  
