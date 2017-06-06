@@ -12,11 +12,11 @@ layout: page
 
 ### 송동환 (Song Donghwan)
 
-1991.10. 28 / 남(Male)  
+**Info** : 1991.10. 28 / 남(Male)  
 
-**H.P.**  (010) 9122 - 8080  
+**H.P.** : 010 - 9122 - 8080  
 
-**Mail** blue1028@unist.ac.kr  
+**Mail** : blue1028@unist.ac.kr  
 
 
 
@@ -39,13 +39,13 @@ layout: page
 	B.S, Mechanical and System Engineering / *2011 - 2015*
 
 **(卒) 용문고등학교**  
-    *2007 – 2010*
+    High School / *2007 – 2010*
 
 **(卒) 용문중학교**  
-	*2004 – 2007*
+	Middle School / *2004 – 2007*
 
 **(卒) 성신초등학교**  
-	*1998 – 2004*
+	Elementary School *1998 – 2004*
 
 
 ---
