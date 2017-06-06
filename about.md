@@ -9,7 +9,7 @@ layout: page
   
 ---
 
-## Profile
+## PROFILE
 #### 송동환 (Song Donghwan)
 
 **Info** : 1991. 10. 28 / 남 (Male)  
@@ -30,7 +30,7 @@ layout: page
 ---
 
 
-## Education
+## EDUCATION
 
 **(現) 울산과학기술원(UNIST)**
 >   Ulsan National Institute of Science and Technology (UNIST)  
@@ -62,7 +62,7 @@ Location : Seoul
 ---
 
 
-## Projects
+## PROJECTS
 
 **중소기업청 창업 맞춤형 사업 과제**   
 >Small and Medium Business Administration Matching Project  
@@ -83,7 +83,7 @@ Project Manager / Fund  : 3천만원 / *2014.04-2015.03*
 ---
 
 
-## Experience
+## EXPERIENCE
 
 **앤트하우스 - ㈜ 코스콤 MOU 체결**  
 >ANTHOUSE – KOSCOM Co., Ltd.  MOU  
@@ -126,7 +126,7 @@ Period : *2013.10.23*
 ---
 
 
-## Awards
+## AWARDS
 
 **부울경 핀테크 서비스 콘테스트**  
 >Busan & Ulsan Fintech Service Contest  
@@ -192,7 +192,7 @@ Date :*2012.02*
 ---
 
 
-## Skills & Interest
+## SKILLS & INTEREST
 
 + **Language**  
 Test of English for International Communication(TOEIC) : 880
@@ -211,7 +211,7 @@ SystemTrading(시스템트레이딩), AlgorithmTrading(알고리즘트레이딩)
 ---
 
 
-## Publications
+## PUBLICATIONS
 
 **Conference**
 1. 송동환, 이윤재, & 김남훈. (2014). 청각신호를 이용한 시각장애인 방향제어 길안내 시스템. 2014 년 대한산업공학회· 한국경영과학회 춘계공동학술대회 논문집, 1743-1755.
@@ -229,7 +229,8 @@ SystemTrading(시스템트레이딩), AlgorithmTrading(알고리즘트레이딩)
 ---
 
 
-## Patents
+## PATENTS
+
 **국내 특허(Korean Patent)**
 + **시각 장애인을 위한 길 안내 서비스 제공 시스템 및 발명**  
 Publication No : 1016483740000 / Publication Date : *2016.08.09*
@@ -242,7 +243,7 @@ Publication No : US-2016-0327405-A1 / Publication Date : *2016.11.10*
 ---
 
 
-## Scholarships
+## SCHOLARSHIPS
 
 **National Science and Engineering Scholarship**  
 Korean Student Aid Foundation / *Period : 2011 - 2015*
