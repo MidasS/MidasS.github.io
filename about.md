@@ -4,7 +4,7 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-
+<h1 style="text-align:center">Midas S</h1>
 
 ---
 
