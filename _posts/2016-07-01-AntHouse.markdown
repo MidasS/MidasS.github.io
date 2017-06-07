@@ -10,7 +10,7 @@ hidden: true # don't count this post in blog pagination
 description: "AntHouse Project."
 category: project
 author: MidasS
-externalLink: ture
+externalLink: false
 ---
 
 ---
