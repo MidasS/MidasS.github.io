@@ -26,10 +26,10 @@ externalLink: false
 ---
 
 # SoundView Board
-<img src="{{ site.url }}/assets/images/projectm/soundview/soundview_keyboard.png" float="left" alt="SoundView_Keyboard1" />
+<img src="{{ site.url }}/assets/images/projectm/soundview/soundview_keyboard.png"  alt="SoundView_Keyboard" />
 
 # SoundView Video
-<video src="{{ site.url }}/assets/images/projectm/soundview/soundview_video.mp4" width="700" height="400"></video>
+<video src="{{ site.url }}/assets/images/projectm/soundview/soundview_video.mp4" width="565" controls></video>
 
 ---
 
