@@ -37,7 +37,7 @@ layout: page
 	M.S & PhD, System Design and Control Engineering  
 	period : *2015 -*
 
-**(現) 울산과학기술원(UNIST)**  
+**(卒) 울산과학기술원(UNIST)**  
 >   Ulsan National Institute of Science and Technology (UNIST)  
 	B.S, Mechanical and System Engineering  
 	Periood : *2011 - 2015*
