@@ -15,7 +15,21 @@ externalLink: false
 
 ---
 
-Soundview
+# SoundView
+![SoundView_main]({{ site.url }}/assets/images/projectm/soundview/soundview_main.png)
+
+---
+
+# SoundView Algorithm
+![SoundView_algorithm]({{ site.url }}/assets/images/projectm/soundview/soundview_algorithm.png)
+
+---
+
+# SoundView Board
+<img src="{{ site.url }}/assets/images/projectm/soundview/soundview_keyboard.png" float="left" alt="SoundView_Keyboard1" />
+
+# SoundView Video
+<video src="{{ site.url }}/assets/images/projectm/soundview/soundview_video.mp4" width="700" height="400"></video>
 
 ---
 

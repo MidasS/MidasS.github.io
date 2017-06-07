@@ -20,7 +20,7 @@ layout: page
 
 **H.P.** : 010 9122 8080  
 
-**Mail** : blue1028@unist.ac.kr  
+**Mail** : blue1028@unist.ac.kr 
 
 **Occupation**
 
