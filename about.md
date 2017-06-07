@@ -68,25 +68,40 @@ Location : Seoul
 
 ## PROJECTS
 
+**UNICORN Project**
+>UNICORN Project for AntHouse  
+Project Director  
+Fund : 1천만원 ($10,000)  
+Period : *2017.03 -*
+
 **도메인 데이터 기반 에이전트 행동 패턴 분석 연구**   
 >Domain Data based Agent Behavior Pattern Analysis Project  
-Project Researcher / Fund : 3천만원 ($30,000) / *2016.07.15 - 2016.11.30*
+Project Researcher  
+Fund : 3천만원 ($30,000)  
+Period : *2016.07.15 - 2016.11.30*
 
 **중소기업청 창업 맞춤형 사업 과제**   
 >Small and Medium Business Administration Matching Project  
-Project Director / Fund : 7천만원 ($70,000) / *2013.12 - 2014.10*
+Project Director  
+Fund : 7천만원 ($70,000)  
+Period : *2013.12 - 2014.10*
 
 **비즈니스아이디어(BI) 사업화 과제**  
 >Business Idea Development Project  
-Project Director / *2014.03 - 2014.05*
+Project Director  
+Period : *2014.03 - 2014.05*
 
 **울산 스마트 벤처창업학교**  
 >Ulsan Smart Venture School Project  
-Project Manager / Fund : 5천만원 ($50,000) / *2014.08 - 2015.04*
+Project Manager  
+Fund : 5천만원 ($50,000)  
+Period : *2014.08 - 2015.04*
 
 **사회적 기업 육성 사업**  
 >Social Enterprise Accelerating Project  
-Project Manager / Fund  : 3천만원 ($30,000) / *2014.04-2015.03*
+Project Manager  
+Fund  : 3천만원 ($30,000)  
+Period : *2014.04-2015.03*
 
 ---
 
