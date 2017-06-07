@@ -12,13 +12,17 @@ layout: page
 ## PROFILE
 #### 송동환 (Song Donghwan)
 
-**Info** : 1991. 10. 28 / 남 (Male)  
+**Birth** : 1991. 10. 28  
+
+**Sex** :  남 (Male)  
+
+**Town** : 대한민국 서울 (Seoul, Republic of Korea)
 
 **H.P.** : 010 9122 8080  
 
 **Mail** : blue1028@unist.ac.kr  
 
-
+**Occupation**
 
 * AntHouse (現) / CEO / 2016.07 -
 
