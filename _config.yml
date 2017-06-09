@@ -30,7 +30,7 @@ permalink: /:title/
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
-  shortname: songdh1028@gmail.com # enter this from your disqus account
+  shortname: blue1028 # enter this from your disqus account
   categories: [blog] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
@@ -52,13 +52,13 @@ github: midass
 email: blue1028@unist.ac.kr
 
 authors:
-    johndoe:
+    MidasS:
         name: Song Donghwan
         bio: who makes next generation of fintech platform
         external-image: false
         picture: assets/images/profile2.jpg
 #        twitter: johndoe
-    jamesfoster:
+    MidasSfoster:
         name: Song Donghwan
         bio: who makes next generation of fintech platform
         external-image: false
