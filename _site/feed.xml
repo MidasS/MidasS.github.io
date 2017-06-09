@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-06-09T16:04:35+09:00</updated><id>http://localhost:4000/</id><title type="html">Song Donghwan</title><subtitle>A blog about technology and stuff related</subtitle><entry><title type="html">머신러닝을 이용한 투자법 (#1 머신러닝이란?)</title><link href="http://localhost:4000/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%ED%88%AC%EC%9E%90%EB%B2%95(-1-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%9D%B4%EB%9E%80-)/" rel="alternate" type="text/html" title="머신러닝을 이용한 투자법 (#1 머신러닝이란?)" /><published>2017-06-09T15:05:00+09:00</published><updated>2017-06-09T15:05:00+09:00</updated><id>http://localhost:4000/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%ED%88%AC%EC%9E%90%EB%B2%95(#1%20%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%9D%B4%EB%9E%80?)</id><content type="html" xml:base="http://localhost:4000/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%ED%88%AC%EC%9E%90%EB%B2%95(-1-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%9D%B4%EB%9E%80-)/">&lt;h1 id=&quot;ml-for-trading-intro&quot;&gt;ML For Trading Intro.&lt;/h1&gt;
+
+&lt;p&gt;최근 알파고에 의한 인공지능의 관심 및 컴퓨터의 성능이 좋아지면서 많은 분야에 걸친 도메인 데이터에 기계학습(Machine Learning) 및 딥러닝(Deep Learning) 기술이 적용되고 있다.&lt;/p&gt;
+
+&lt;p&gt;금융분야도 그중 일부로서 다양한 기계학습의 기법들이 적용되고 있지만 금융 시장 특성상 단기간에 다양한 요인들이 복합적으로 적용되면서 거래가 일어나기 때문에 다른 분야에 비해 좋은 성과를 못 내고 있는 실정이다. 또한 연속된 시계열 데이터라는 특성을 반영해야 된다는 점에서 어려움을 더하고 있다.
+ 하지만 분명히 과거와는 다르게 사람이 모형 수식을 제작하고 가정하에서 접근하는 방식에서 과거 데이터에 기반하여 기계학습적 접근에 대한 트렌드의 변화가 일어나고 있으며 더 좋은 성과가 지속적으로 나타나고 있다.&lt;/p&gt;
+
+&lt;p&gt;이 블로그 시리즈에서는 기계학습을 이용한 투자에 대한 관점에서 글을 연재해 보려고 한다.
+본격적으로 &lt;strong&gt;기계학습을 이용한 트레이딩(Machinelearning For Trading)&lt;/strong&gt;을 시작하기 앞서 우리는 머신러닝이 뭔지 이해해야 한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1 id=&quot;기계학습머신러닝-이란&quot;&gt;기계학습(머신러닝) 이란?&lt;/h1&gt;
+
+&lt;p&gt;머신러닝은 글자 그대로 &lt;strong&gt;머신(Machine)&lt;/strong&gt; + &lt;strong&gt;러닝(Learning)&lt;/strong&gt;으로서 기계가 학습을 한다는 의미다.
+그렇다면 구체적으로 기계가 학습한다는 것이 무엇을 의미하며 이 과정을 통해 어떻게 기계가 똑똑하게 변하는지 알아보도록 하자.&lt;/p&gt;
+
+&lt;p&gt;실제로 기계학습을 제대로 이해하기 위해서는 확률, 선형대수, 편미분 등 다양하고 깊은 지식들이 필요하지만 본 시리즈에서는 기계학습을 처음 배우는 사람들도 최대한 알기 쉽고 이해할 수 있게 접근하려고 한다. 따라서 많은 예와 비유를 사용하여 학술적인 정의와는 살짝 벗어날 수 있지만 기계학습이라는 개념을 다지기에는 훨씬 직관적일 것이다.&lt;/p&gt;
+
+&lt;p&gt;그렇다면 기계학습은 어떤 원리일지 생각해보자. 사실 그 직관적 원리의 출발은 우리가 초등학교 때 배웠던 함수에서부터 시작할 수 있다.  우리는 어린 시절 처음 함수라는 개념을 배울 때 다음과 같은 &lt;strong&gt;함수상자&lt;/strong&gt;를 봤을 것이다.&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;
+    &lt;figure&gt;
+        &lt;img src=&quot;http://localhost:4000/assets/images/blog/ML_For_Trading/FunctionBox.png&quot; alt=&quot;FunctionBox&quot; /&gt;
+        &lt;figcaption&gt;그림 1. 함수 상자 (Function Box) &lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;여기서 중요한 것은 X라는 입력이 들어가서 상자 안의 임의의 수식 처리를 거친 후 Y라는 결괏값을 내보낸다.&lt;/p&gt;
+
+&lt;p&gt;이때 우리는 이러한 함수 상자를 거치는 과정을 연역적 관점과 귀납적 관점 이 두가지 관점에서 바라보도록 하자.&lt;/p&gt;
+
+&lt;p&gt;첫 번째 &lt;strong&gt;연역적 접근&lt;/strong&gt;은 함수관계식을 정의해놓고 여기에 X가 들어오면 함수에 맞는 관계식을 적용시켜 Y라는 값을 산출하는 것이다.
+(연역법 : 이미 증명된 하나 또는 둘 이상의 명제를 전제로 하여 새로운 명제를 결론으로 이끌어내는 것을 연역법이라 함)&lt;/p&gt;
+
+&lt;p&gt;두 번째 &lt;strong&gt;귀납적 접근&lt;/strong&gt;은 함수관계식을 미리 정해놓지 않고 X라는 데이터들이 들어가서 나오는 Y 값들을 이용하여 역으로 함수식을 도출하는 것이다.
+(귀납법 : 개별적인 특수한 사실이나 원리로부터 그러한 사례들이 포함되는 좀 더 확장된 일반적 명제를 이끌어내는 것을 귀납법이라 함)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;간단한 예를 들어보자,&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;X = 2가 들어갈 때 : a* X(2) + b = 8&lt;br /&gt;
+X = 3이 들어갈 때 : a* X(3) + b = 11&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;이렇게 X와 Y의 값들이 주어지면 두식을 연립하여 a = 3, b = 2라는 함수의 계수를 찾을 수 있고 계수를 찾게 되면 함수관계식을 만들 수 있게 된다.
+이렇게 함수 관계식을 파악하게 되면 우리는 Y 값을 모르는 새로운 X 값이 들어오게 되더라도 기존에 있는 귀납적으로 알게 된 함수 관계식을 바탕으로 해당 Y 값을 알 수 있게 된다.&lt;/p&gt;
+
+&lt;p&gt;즉, 기계가 학습한다, 기계학습을 한다는 말은 위의 두 번째 &lt;strong&gt;귀납적 접근법&lt;/strong&gt;과 같이 다양한 X(학습 데이터 or Training Data)들을 이용하여 함수의 미정계수(매개변수 or Hyper-parameter)들을 찾는 것이다.
+이렇게 미정계수가 정해지면 함수(결정평면 or Hyperplane)를 정의할 수 있고 함수가 만들어지면 우리가 새로운 X(검증 데이터 or Test Data)가 주어졌을 때 그에 맞는 Y 값을 예측할 수 있는 것이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1 id=&quot;주식-데이터-예제를-통한-적용&quot;&gt;주식 데이터 예제를 통한 적용&lt;/h1&gt;
+
+&lt;p&gt;위의 방식을 실제 주식 데이터에 적용시켜 예를 들어보자,&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q. 내일의 주가를 알 수는 없을까?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;2016년 1년 동안의 삼성전자의 과거 데이터인 일 단위 주가(일봉)들을 함수 상자에 넣어주자.&lt;/p&gt;
+
+&lt;p&gt;여기서 일봉은 X 데이터 역할을 하며 그다음날의 종가(Close Price)를 Y 값으로 짝지어 준다.&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+        &lt;img src=&quot;http://localhost:4000/assets/images/blog/ML_For_Trading/LearningFlow.png&quot; alt=&quot;LearningFlow&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;이해의 편의상 휴장일이 없다고 가정하고 이렇게 함수 관계식을 세워주면 12월 30일까지인 364개의 과거 학습 데이터를 바탕으로 함수의 미정계수들을 찾아줄 수 있다.&lt;/p&gt;
+
+&lt;p&gt;이를 바탕으로 우리가 마지막 날인 12월 31일 장이 마감했을 때 그날의 종가(Xt)를 넣어준다면 그다음날의 Y 값을 과거 364개의 과거 학습 데이터를 바탕으로 (오늘 끝날 때 주가가 이 가격일 땐 그다음날의 가격은 이거였어! -&amp;gt; 364번 반복 학습) 그다음 날인 1월 1일의 끝날 때의 가격(Yt)을 알려준다. 물론 여기에서는 X값인 학습 데이터를 전날 종가인 단일 변수를 사용했지만 추후 실전 예제에서는 다차원 변수를 사용하여 실험을 해볼 것이다.&lt;/p&gt;
+
+&lt;p&gt;위와 같이 X와 Y 값들이 짝 지어져 Y 값들을 미리 알고 있는 경우를 머신러닝에서는 &lt;strong&gt;지도학습(Supervised Learning)&lt;/strong&gt;이라고 말한다. 반대로 Y의 값을 모를 경우 &lt;strong&gt;비지도 학습(Unsupervised Learning)&lt;/strong&gt;, 또한 환경과의 상호작용으로 보상을 통해 진화하면서 학습하는 경우를 &lt;strong&gt;강화 학습(Reinforcement Learning)&lt;/strong&gt;이라고 한다. 자세한 내용은 연재가 진행되면서 자세하게 다룰 예정이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1 id=&quot;outro&quot;&gt;Outro.&lt;/h1&gt;
+
+&lt;p&gt;언뜻 보기에는 편리해 보이고 손쉽게 미래를 예측하여 머신러닝이 만능인 것처럼 보일 수 있지만, 실제 위의 예시는 직관적인 이해를 위한 것이고 깊게 들어가 보면 위의 함수상자의 예시처럼 식 2개 미지수 2개처럼 단순하게 연립되지 않으며 값들이 딱 맞아떨어져 미정계수를 쉽게 알아내는 경우도 거의 없어 오차를 통해 학습하여야 한다. 또 실생활의 데이터 셋은 더욱 많은 노이즈(Noise)를 포함하고 있어 전처리 등 다양한 작업이 필요하다.&lt;/p&gt;
+
+&lt;p&gt;또한 학습하는 과정에서 다양한 알고리즘이 존재하며 하나의 알고리즘이 모든 분야의 데이터 문제를 해결하는 경우는 없다.
+이 말을 머신 러닝에서는&lt;em&gt;“세상에 공짜 점심은 없다(There is no such a free lunch)”&lt;/em&gt;로 비유하기도 한다.&lt;/p&gt;
+
+&lt;p&gt;기계학습을 통한 투자는 분명히 높은 산이긴 하지만 절대 정복하지 못할 곳은 아니다. 어렵더라도 이 연재 글을 천천히 따라오면서 &lt;strong&gt;개념적 이해&lt;/strong&gt;와 &lt;strong&gt;Python과 관련 라이브러리&lt;/strong&gt; 등(Numpy, Pandas, Tensorflow, Keras, Scikit-Learn)을 통한 실습을 진행한다면 본인만의 알고리즘 및 변형된 새로운 접근법을 만들 수 있게 될 것이다.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;이상 머신러닝을 이용한 투자법 시리즈 첫 번째 글을 마치도록 하겠습니다.&lt;br /&gt;
+다음 포스팅에서는 머신러닝 개념의 2탄 세부 종류에 대해서 알아보려고 합니다.&lt;br /&gt;
+피드백이나 질문사항을 댓글로 남겨주시면 답변드리도록 하겠습니다.&lt;br /&gt;
+ 다음 포스팅도 기대해주시길 바랍니다!&lt;/em&gt;&lt;/p&gt;</content><author><name>MidasS</name></author><category term="blog" /><category term="Machinelearning" /><category term="Trading" /><category term="Python" /><summary type="html">ML For Trading Intro.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/markdown.jpg" /></entry><entry><title type="html">AntHouse</title><link href="http://localhost:4000/AntHouse/" rel="alternate" type="text/html" title="AntHouse" /><published>2016-07-01T22:10:00+09:00</published><updated>2016-07-01T22:10:00+09:00</updated><id>http://localhost:4000/AntHouse</id><content type="html" xml:base="http://localhost:4000/AntHouse/">&lt;hr /&gt;
+
+&lt;p&gt;AntHouse&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;anthouse-link&quot;&gt;AntHouse Link&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Web Site&lt;/strong&gt; : &lt;a href=&quot;http://anthouse.co.kr&quot;&gt;www.anthouse.co.kr&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FaceBook&lt;/strong&gt; : &lt;a href=&quot;http://fb.com/anthouse&quot;&gt;facebook.com/anthouse&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Blog&lt;/strong&gt; : &lt;a href=&quot;http://blog.anthouse.co.kr&quot;&gt;blog.anthouse.co.kr&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Slideshare&lt;/strong&gt; : &lt;a href=&quot;http://www.slideshare.net/anthouseadmin&quot;&gt;slideshare.net/anthouseadmin&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mail&lt;/strong&gt; : admin@anthouse.co.kr&lt;/p&gt;</content><author><name>MidasS</name></author><category term="project" /><category term="AntHouse" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/anthouse/anthouse_logo.png" /></entry><entry><title type="html">PM Study</title><link href="http://localhost:4000/PM-Study/" rel="alternate" type="text/html" title="PM Study" /><published>2016-02-01T22:10:00+09:00</published><updated>2016-02-01T22:10:00+09:00</updated><id>http://localhost:4000/PM-Study</id><content type="html" xml:base="http://localhost:4000/PM-Study/">&lt;hr /&gt;
+
+&lt;p&gt;PM Study&lt;/p&gt;
+
+&lt;hr /&gt;</content><author><name>MidasS</name></author><category term="project" /><category term="PMStudy" /><category term="ProjectM" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/projectm/pmstudy/pmstudy_logo.png" /></entry><entry><title type="html">VoiceView</title><link href="http://localhost:4000/VoiceView/" rel="alternate" type="text/html" title="VoiceView" /><published>2016-02-01T22:10:00+09:00</published><updated>2016-02-01T22:10:00+09:00</updated><id>http://localhost:4000/VoiceView</id><content type="html" xml:base="http://localhost:4000/VoiceView/">&lt;hr /&gt;
+
+&lt;p&gt;Voice View&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;voiceview-video&quot;&gt;VoiceView Video&lt;/h1&gt;
+&lt;video src=&quot;http://localhost:4000/assets/images/projectm/voiceview/voiceview_video.mov&quot; width=&quot;565&quot; controls=&quot;&quot;&gt;&lt;/video&gt;
+
+&lt;hr /&gt;</content><author><name>MidasS</name></author><category term="project" /><category term="VoiceView" /><category term="ProjectM" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/projectm/voiceview/voiceview_logo.png" /></entry><entry><title type="html">Whatple</title><link href="http://localhost:4000/Whatple/" rel="alternate" type="text/html" title="Whatple" /><published>2014-08-01T22:10:00+09:00</published><updated>2014-08-01T22:10:00+09:00</updated><id>http://localhost:4000/Whatple</id><content type="html" xml:base="http://localhost:4000/Whatple/">&lt;hr /&gt;
+
+&lt;h1 id=&quot;whatple&quot;&gt;Whatple&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/projectm/whatple/whatple_main.png&quot; alt=&quot;whatple_main&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/assets/images/projectm/whatple/whatple_templete4.png&quot; alt=&quot;Whatple_main2&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;whatple-ad&quot;&gt;Whatple Ad&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/projectm/whatple/whatple_plancard.png&quot; alt=&quot;whatple bus ad&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/assets/images/projectm/whatple/whatple_bus.png&quot; alt=&quot;whatple bus ad&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;whatple-video&quot;&gt;Whatple Video&lt;/h1&gt;
+&lt;video src=&quot;http://localhost:4000/assets/images/projectm/whatple/whatple_video.mp4&quot; width=&quot;565&quot; controls=&quot;&quot;&gt;&lt;/video&gt;
+
+&lt;hr /&gt;</content><author><name>MidasS</name></author><category term="project" /><category term="Whatple" /><category term="ProjectM" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/projectm/whatple/whatple_logo.png" /></entry><entry><title type="html">SoundView</title><link href="http://localhost:4000/SoundView/" rel="alternate" type="text/html" title="SoundView" /><published>2013-12-01T22:10:00+09:00</published><updated>2013-12-01T22:10:00+09:00</updated><id>http://localhost:4000/SoundView</id><content type="html" xml:base="http://localhost:4000/SoundView/">&lt;hr /&gt;
+
+&lt;h1 id=&quot;soundview&quot;&gt;SoundView&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/projectm/soundview/soundview_main.png&quot; alt=&quot;SoundView_main&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;soundview-algorithm&quot;&gt;SoundView Algorithm&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/projectm/soundview/soundview_algorithm.png&quot; alt=&quot;SoundView_algorithm&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;soundview-board&quot;&gt;SoundView Board&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/projectm/soundview/soundview_keyboard.png&quot; alt=&quot;SoundView_Keyboard&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;soundview-video&quot;&gt;SoundView Video&lt;/h1&gt;
+&lt;video src=&quot;http://localhost:4000/assets/images/projectm/soundview/soundview_video.mp4&quot; width=&quot;565&quot; controls=&quot;&quot;&gt;&lt;/video&gt;
+
+&lt;hr /&gt;</content><author><name>MidasS</name></author><category term="project" /><category term="Soundview" /><category term="ProjectM" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/projectm/soundview/soundview_logo.png" /></entry></feed>
