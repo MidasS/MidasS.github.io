@@ -35,7 +35,7 @@ description: Markdown summary with different options
  그렇다면 기계학습은 어떤 원리일지 생각해보자. 사실 그 직관적 원리의 출발은 우리가 초등학교 때 배웠던 함수에서부터 시작할 수 있다.  우리는 어린 시절 처음 함수라는 개념을 배울 때 다음과 같은 **함수상자**를 봤을 것이다.
 <div align="center">
     <figure>
-        <img src="{{ site.url }}/assets/images/blog/ML_For_Trading/FunctionBox.png"  alt="FunctionBox" />
+        <img src="{{ site.url }}/assets/images/blog/MLForTrading/FunctionBox.png"  alt="FunctionBox" />
         <figcaption>그림 1. 함수 상자 (Function Box) </figcaption>
     </figure>
 </div>
@@ -74,7 +74,7 @@ description: Markdown summary with different options
 여기서 일봉은 X 데이터 역할을 하며 그다음날의 종가(Close Price)를 Y 값으로 짝지어 준다.
 
 <div align="center">
-        <img src="{{ site.url }}/assets/images/blog/ML_For_Trading/LearningFlow.png"  alt="LearningFlow" />
+        <img src="{{ site.url }}/assets/images/Blog/MLForTrading/LearningFlow.png" alt="LearningFlow" />
 </div>
 
 
