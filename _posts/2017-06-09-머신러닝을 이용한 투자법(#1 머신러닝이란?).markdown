@@ -74,7 +74,7 @@ description: Markdown summary with different options
 여기서 일봉은 X 데이터 역할을 하며 그다음날의 종가(Close Price)를 Y 값으로 짝지어 준다.
 
 <div align="center">
-        <img src="{{ site.url }}/assets/images/Blog/MLForTrading/LearningFlow.png" alt="LearningFlow" />
+        <img src="{{ site.url }}/assets/images/blog/MLForTrading/LearningFlow.png" alt="LearningFlow" />
 </div>
 
 
