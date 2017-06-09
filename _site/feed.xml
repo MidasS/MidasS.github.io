@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-06-09T16:04:35+09:00</updated><id>http://localhost:4000/</id><title type="html">Song Donghwan</title><subtitle>A blog about technology and stuff related</subtitle><entry><title type="html">머신러닝을 이용한 투자법 (#1 머신러닝이란?)</title><link href="http://localhost:4000/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%ED%88%AC%EC%9E%90%EB%B2%95(-1-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%9D%B4%EB%9E%80-)/" rel="alternate" type="text/html" title="머신러닝을 이용한 투자법 (#1 머신러닝이란?)" /><published>2017-06-09T15:05:00+09:00</published><updated>2017-06-09T15:05:00+09:00</updated><id>http://localhost:4000/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%ED%88%AC%EC%9E%90%EB%B2%95(#1%20%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%9D%B4%EB%9E%80?)</id><content type="html" xml:base="http://localhost:4000/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%ED%88%AC%EC%9E%90%EB%B2%95(-1-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%9D%B4%EB%9E%80-)/">&lt;h1 id=&quot;ml-for-trading-intro&quot;&gt;ML For Trading Intro.&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-06-09T16:44:16+09:00</updated><id>http://localhost:4000/</id><title type="html">Song Donghwan</title><subtitle>A blog about technology and stuff related</subtitle><entry><title type="html">머신러닝을 이용한 투자법 (#1 머신러닝이란?)</title><link href="http://localhost:4000/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%ED%88%AC%EC%9E%90%EB%B2%95(-1-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%9D%B4%EB%9E%80-)/" rel="alternate" type="text/html" title="머신러닝을 이용한 투자법 (#1 머신러닝이란?)" /><published>2017-06-09T15:05:00+09:00</published><updated>2017-06-09T15:05:00+09:00</updated><id>http://localhost:4000/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%ED%88%AC%EC%9E%90%EB%B2%95(#1%20%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%9D%B4%EB%9E%80?)</id><content type="html" xml:base="http://localhost:4000/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%ED%88%AC%EC%9E%90%EB%B2%95(-1-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%9D%B4%EB%9E%80-)/">&lt;h1 id=&quot;ml-for-trading-intro&quot;&gt;ML For Trading Intro.&lt;/h1&gt;
 
 &lt;p&gt;최근 알파고에 의한 인공지능의 관심 및 컴퓨터의 성능이 좋아지면서 많은 분야에 걸친 도메인 데이터에 기계학습(Machine Learning) 및 딥러닝(Deep Learning) 기술이 적용되고 있다.&lt;/p&gt;
 
@@ -19,7 +19,7 @@
 &lt;p&gt;그렇다면 기계학습은 어떤 원리일지 생각해보자. 사실 그 직관적 원리의 출발은 우리가 초등학교 때 배웠던 함수에서부터 시작할 수 있다.  우리는 어린 시절 처음 함수라는 개념을 배울 때 다음과 같은 &lt;strong&gt;함수상자&lt;/strong&gt;를 봤을 것이다.&lt;/p&gt;
 &lt;div align=&quot;center&quot;&gt;
     &lt;figure&gt;
-        &lt;img src=&quot;http://localhost:4000/assets/images/blog/ML_For_Trading/FunctionBox.png&quot; alt=&quot;FunctionBox&quot; /&gt;
+        &lt;img src=&quot;http://localhost:4000/assets/images/blog/MLForTrading/FunctionBox.png&quot; alt=&quot;FunctionBox&quot; /&gt;
         &lt;figcaption&gt;그림 1. 함수 상자 (Function Box) &lt;/figcaption&gt;
     &lt;/figure&gt;
 &lt;/div&gt;
@@ -61,7 +61,7 @@ X = 3이 들어갈 때 : a* X(3) + b = 11&lt;/p&gt;
 &lt;p&gt;여기서 일봉은 X 데이터 역할을 하며 그다음날의 종가(Close Price)를 Y 값으로 짝지어 준다.&lt;/p&gt;
 
 &lt;div align=&quot;center&quot;&gt;
-        &lt;img src=&quot;http://localhost:4000/assets/images/blog/ML_For_Trading/LearningFlow.png&quot; alt=&quot;LearningFlow&quot; /&gt;
+        &lt;img src=&quot;http://localhost:4000/assets/images/blog/MLForTrading/LearningFlow.png&quot; alt=&quot;LearningFlow&quot; /&gt;
 &lt;/div&gt;
 
 &lt;p&gt;이해의 편의상 휴장일이 없다고 가정하고 이렇게 함수 관계식을 세워주면 12월 30일까지인 364개의 과거 학습 데이터를 바탕으로 함수의 미정계수들을 찾아줄 수 있다.&lt;/p&gt;

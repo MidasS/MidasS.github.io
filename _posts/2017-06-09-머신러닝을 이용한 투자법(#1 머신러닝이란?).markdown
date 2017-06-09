@@ -10,7 +10,7 @@ tag:
 - Python
 category: blog
 author: MidasS
-description: Markdown summary with different options
+description: 머신러닝을 이용한 투자법  (#1 머신러닝이란?)
 # jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
 ---
 
