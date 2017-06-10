@@ -13,7 +13,7 @@ author: MidasS
 description: 머신러닝을 이용한 투자법  (#1 머신러닝이란?)
 ---
 
-<img src="{{ site.url }}/assets/images/blog/cover/cover1.jpg"  alt="cover12" />
+<img src="{{ site.url }}/assets/images/blog/cover/cover12.jpg"  alt="cover12" />
 
 
 # ML For Trading Intro.
