@@ -74,7 +74,7 @@ Project Director
 Fund : 1천만원 ($10,000)  
 Period : *2017.03 -*
 
-**도메인 데이터 기반 에이전트 행동 패턴 분석 연구**   
+**도메인 데이터 기반 에이전트 행동 패턴 분석 연구(ETRI)**   
 >Domain Data based Agent Behavior Pattern Analysis Project  
 Project Researcher  
 Fund : 3천만원 ($30,000)  
